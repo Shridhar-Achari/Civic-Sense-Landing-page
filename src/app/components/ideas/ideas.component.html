@@ -1,0 +1,29 @@
+<section class="ideas">
+ 
+
+  <div class="ideas-content">
+    <!-- Blog Preview -->
+    <div class="blog-list">
+         <h2>Share Your Ideas</h2>
+      <div class="blog-card">
+        <img src="assets/images/22795.jpg" alt="Garbage"/>
+        <h3>5 Fun Ways to Teach Kids Not to Litter</h3>
+      </div>
+      <br>
+      <div class="blog-card">
+        <img src="assets/images/Happy volunteers cleaning city park from garbage.jpg" alt="Garbage">
+        <h3>Community Clean-Up Success Stories</h3>
+      </div>
+    </div>
+
+    <!-- Idea Form -->
+     <div class="form-box">
+    <form (ngSubmit)="submitIdea()" #ideaForm="ngForm">
+      <input type="text" name="name" placeholder="Name" [(ngModel)]="idea.name" required />
+      <input type="email" name="email" placeholder="Email" [(ngModel)]="idea.email" required />
+      <textarea name="message" placeholder="Your Idea" [(ngModel)]="idea.message" required></textarea>
+      <button type="submit" class="cta-btn">Send My Idea</button>
+    </form>
+    </div>
+  </div>
+</section>

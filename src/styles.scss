@@ -1,1 +1,224 @@
 /* You can add global styles to this file, and also import other style files */
+$primary-color: #4CAF50;
+
+app-root {
+    display: block;
+    margin: 0 120px;
+}
+
+.body {
+    margin: 0px 120px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 56px;
+        color: #222222;
+        font-weight: 700;
+    }
+
+    .cta-btn {
+        background: #4CAF50;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s;
+        width: 280px;
+        height: 65px;
+        font-size: 26px;
+
+        &:hover {
+            background: #45a049;
+        }
+    }
+}
+
+.about,
+.help,
+.ideas {
+    padding: 2rem;
+    text-align: center;
+
+    h2 {
+        font-size: 42px;
+        color: #333333;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 28px;
+        color: #333333;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 28px;
+        color: #555555;
+        font-weight: 400;
+    }
+}
+
+.icons,
+.cards,
+.ideas-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    margin-top: 1rem;
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+    img {
+        height: 175px;
+        width: 175px;
+    }
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 15px;
+    height: 275px;
+    width: 275px;
+    align-items: center;
+    text-align: center;
+}
+
+.blog-list {
+    max-width: 400px;
+}
+
+.blog-card {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+* {
+    font-family: roboto;
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+    app-root {
+        margin: 60px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 42px !important;
+    }
+
+    .about,
+    .help,
+    .ideas {
+        padding: 1.5rem;
+
+        h2 {
+            font-size: 32px !important;
+        }
+
+        h3 {
+            font-size: 24px !important;
+        }
+
+        p {
+            font-size: 22px !important;
+        }
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+
+
+@media (min-width: 50px) and (max-width: 599px) {
+    app-root {
+        margin: 0px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 32px !important;
+    }
+
+    .about,
+    .help,
+    .ideas {
+        padding: 1rem;
+
+        h2 {
+            font-size: 32px !important;
+        }
+
+        h3 {
+            font-size: 24px !important;
+        }
+
+        p {
+            font-size: 22px !important;
+        }
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+    }
+}
