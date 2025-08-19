@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1755586793612,
+  "timestamp": 1755588132147,
   "index": "/Civic-Sense-Landing-page/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Civic-Sense-Landing-page/favicon.ico",
         "/Civic-Sense-Landing-page/index.html",
-        "/Civic-Sense-Landing-page/main-F6PCO4DW.js",
+        "/Civic-Sense-Landing-page/main-ABBAWECD.js",
         "/Civic-Sense-Landing-page/manifest.webmanifest",
         "/Civic-Sense-Landing-page/polyfills-B6TNHZQ6.js",
         "/Civic-Sense-Landing-page/styles-QCSMESQB.css"
@@ -73,8 +73,8 @@
     "/Civic-Sense-Landing-page/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/Civic-Sense-Landing-page/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/Civic-Sense-Landing-page/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/Civic-Sense-Landing-page/index.html": "c065ed69d85f8f514623308240ed18e77322bcb4",
-    "/Civic-Sense-Landing-page/main-F6PCO4DW.js": "0d7e6ecb765e03a7555afe2d547af326086cc793",
+    "/Civic-Sense-Landing-page/index.html": "fa02c519eed264bbf43f2c12ff3b4c35f3a157fb",
+    "/Civic-Sense-Landing-page/main-ABBAWECD.js": "b18939532c98f4e215fafef4da2c955469e63c4b",
     "/Civic-Sense-Landing-page/manifest.webmanifest": "486b9fffb0d3030950a0adde67d17e9c1d98f1b7",
     "/Civic-Sense-Landing-page/media/fa-brands-400-WVWUIHCX.woff2": "a225a588336ef6110e541a64cefcb16cd4118a97",
     "/Civic-Sense-Landing-page/media/fa-regular-400-I5DJMINO.woff2": "5d19c7ada8e2e23fe7949606abf45c72bd842801",
